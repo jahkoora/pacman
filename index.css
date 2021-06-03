@@ -1,0 +1,76 @@
+html,
+body {
+	margin: auto;
+	padding: 10;
+}
+
+.container {
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 420px;
+	height: 420px;
+	border: solid white;
+	background-color: black;
+}
+
+.grid div {
+	width: 15px;
+	height: 15px;
+}
+
+.pac-dot {
+	background-color: white;
+	border: 7px solid black;
+	box-sizing: border-box;
+}
+
+.wall {
+	background-color: blue;
+	/* border-radius: 5px; */
+	border-color: blue;
+}
+
+.power-pellet {
+	background: url(/imgs/other/apple.png);
+	border-radius: 7.5px;
+}
+
+.pacman {
+	background: url(/imgs/pacman-left/1.png);
+	border-radius: 7.5px;
+	border: none;
+}
+
+.blinky {
+	background: url(/imgs/ghosts/blinky.png);
+	border: none;
+}
+
+.pinky {
+	background: url(/imgs/ghosts/pinky.png);
+	border: none;
+}
+
+.inky {
+	background: url(/imgs/ghosts/inky.png);
+	border: none;
+}
+
+.clyde {
+	background: url(/imgs/ghosts/clyde.png);
+	border: none;
+}
+
+.scared-ghost {
+	background: url(/imgs/ghosts/blue_ghost.png);
+	border: none;
+}
